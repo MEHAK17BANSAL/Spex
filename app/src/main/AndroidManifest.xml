@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mehak.spex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fashion.ui.Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".fashion.ui.LogIn" />
+        <activity android:name=".fashion.ui.Nav" />
+        <activity android:name=".fashion.ui.cart" />
+        <activity android:name=".fashion.ui.Final" >
+
+       </activity>
+        <activity android:name=".fashion.ui.SignUp" />
+        <activity android:name=".fashion.ui.EyeGlass" />
+        <activity android:name=".fashion.ui.MainActivity" />
+        <activity android:name=".fashion.ui.Spex" />
+        <activity android:name=".fashion.ui.Eye_Glass_Psd_Six" />
+        <activity android:name=".fashion.ui.EyeGlassPsdTen" />
+        <activity android:name=".fashion.ui.Filter_Gallery"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".fashion.ui.MyLocationActivity"></activity>
+        <activity android:name=".fashion.ui.Filter_Gallery2"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_appointment"
+        android:icon="@drawable/logo_80"
+app:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="Shop" />
+
+    <item
+        android:id="@+id/nav_clients"
+        android:icon="@drawable/layer_16"
+        android:title="Recent" />
+
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@drawable/layer_15"
+        android:title="Store Locate" />
+    <item
+        android:id="@+id/nav_sign"
+        android:icon="@drawable/layer_12"
+        android:title="Sign in" />
+
+
+</menu>

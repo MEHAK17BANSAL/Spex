@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/purewhite"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fashion.ui.Home">
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+
+        app:srcCompat="@drawable/logo_80"></ImageView>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/viewpager"
+        android:layout_marginTop="40dp"
+        android:layout_height="200dp">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_below="@+id/viewPager"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="250dp"
+        android:background="@drawable/layer866"
+        android:text="LOG IN"
+        android:id="@+id/log"
+        android:layout_gravity="center"
+        android:textColor="@color/purewhite"
+        android:layout_marginTop="80dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:onClick="login"
+        android:paddingLeft="5dp"
+        android:layout_height="23dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:onClick="SIGNUP"
+        android:background="@drawable/layer466"
+        android:text="SIGN UP"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/purewhite"
+        android:paddingBottom="2dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:layout_height="25dp" />
+
+
+</LinearLayout>
+
+
+
+
+
+

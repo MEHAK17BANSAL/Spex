@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/purewhite"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fashion.ui.EyeGlass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="3dp"
+        android:background="@color/grey1"
+        android:paddingBottom="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:background="@drawable/layer_32"
+            android:layout_marginTop="10dp"
+android:onClick="backhere"
+            android:layout_marginLeft="8dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_marginTop="8dp"
+            android:text="EYEGLASSES"
+            android:textColor="@color/darkgray"
+            android:textSize="20dp"
+            android:layout_marginLeft="95dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:background="@drawable/layer_31"
+            android:layout_marginTop="10dp"
+
+            android:paddingRight="2dp"
+            android:layout_marginLeft="70dp"
+          android:layout_marginRight="15dp"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="3dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/purewhite"
+        android:paddingBottom="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="35dp">
+        <ImageView
+            android:layout_width="15dp"
+            android:background="@drawable/dot"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dot1"
+            android:paddingRight="2dp"
+            android:layout_marginLeft="50dp"
+android:onClick="dot1"
+            android:layout_height="15dp" />
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+          android:visibility="visible"
+            android:layout_marginTop="16dp"
+            android:background="#dad9d9" />
+        <ImageView
+            android:layout_width="15dp"
+            android:background="@drawable/dot"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dot2"
+            android:paddingRight="2dp"
+android:onClick="dot2"
+
+            android:layout_height="15dp" />
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginTop="16dp"
+            android:background="#dad9d9" />
+        <ImageView
+            android:layout_width="15dp"
+            android:background="@drawable/dot"
+            android:layout_marginTop="10dp"
+            android:id="@+id/dot3"
+            android:paddingRight="2dp"
+android:onClick="dot3"
+
+            android:layout_height="15dp" />
+    </LinearLayout>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="17dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp"
+            android:text="FRAME"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.013" />
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="17dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp"
+            android:text="PRESCRIPITION"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="17dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp"
+            android:text="PAYMENT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.897"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:text="READING"
+       android:layout_gravity="center"
+       android:textColor="@color/g1"
+       android:layout_marginTop="60dp"
+       android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="RIGHT VISION (OD)"
+        android:textColor="@color/g2"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0.5"
+        android:textColor="@color/g3"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="LEFT VISIOM (OS)"
+        android:textColor="@color/g4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="0.25"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="25.0"
+            android:textColor="@color/g3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.338"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="25.0"
+            android:textColor="@color/g3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.661"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Content Container -->
+        <Button
+            android:layout_width="308dp"
+android:onClick="cart1"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="77dp"
+            android:background="@drawable/divider"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="CONFIRM"
+            android:textColor="@color/purewhite" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/purewhite"
+            app:itemIconTint="@color/black"
+            app:itemTextColor="@color/black"
+            app:menu="@menu/nav" />
+    </RelativeLayout>
+</LinearLayout>
